@@ -72,14 +72,14 @@ export default function Home() {
                 </div>
                 <div
                     style={{
-                        textAlign: "end",
+                        textAlign: "center",
                         fontWeight: "400",
-                        fontSize: "36px",
+                        fontSize: "26px",
                         color: "white",
                         letterSpacing: "6px",
                     }}
                 >
-
+                       Raffle Winner #642
                 </div>
             </div>
             <div
