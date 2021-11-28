@@ -79,7 +79,7 @@ export default function Home() {
                         letterSpacing: "6px",
                     }}
                 >
-                       Raffle Winner #1842
+                       Whitelist #1842
                 </div>
             </div>
             <div
@@ -146,7 +146,7 @@ export default function Home() {
                     max="10"
                     type="number"
                 />
-                <div style={{ color: "white", fontSize: "30px" }}>Cryptobull(s)</div>
+                <div style={{ color: "white", fontSize: "30px", fontWeight: '500', }}>Cryptobull(s)</div>
             </div>
             <button
                 onClick={() => {
