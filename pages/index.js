@@ -144,7 +144,7 @@ export default function Home() {
                         borderRadius: "6px",
                     }}
                     min="1"
-                    max="2"
+                    max="5"
                     type="number"
                 />
                 <div style={{ color: "white", fontSize: "30px", fontWeight: '500', }}>Cryptobull(s)</div>
