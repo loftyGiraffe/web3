@@ -61,25 +61,25 @@ export default function Home() {
             <div>
                 <div
                     style={{
-                        fontSize: "90px",
-                        fontWeight: "400",
+                        fontSize: "120px",
+                        fontWeight: "1000",
                         color: "white",
                         lineHeight: "130px",
-                        letterSpacing: "6px",
+                        letterSpacing: "8px",
                     }}
                 >
-                    Cryptobulls
+                    Crypto Bull Society
                 </div>
                 <div
                     style={{
                         textAlign: "center",
                         fontWeight: "400",
-                        fontSize: "26px",
+                        fontSize: "36px",
                         color: "white",
                         letterSpacing: "6px",
                     }}
                 >
-                       Raffle Winner #642
+                       Raffle Winner #1842
                 </div>
             </div>
             <div
@@ -116,9 +116,10 @@ export default function Home() {
                     fontSize: "30px",
                     marginTop: "40px",
                     marginBottom: "30px",
+                    fontWeight: '500'
                 }}
             >
-                Total Minted: 642 / 777
+                Total Minted: 1942 / 2000
             </div>
             <div
                 style={{
@@ -127,7 +128,7 @@ export default function Home() {
                     justifyContent: "center",
                 }}
             >
-                <div style={{ color: "white", fontSize: "30px" }}>I want to mint</div>
+                <div style={{ color: "white", fontSize: "30px", fontWeight: '500', }}>I want to mint</div>
                 <input
                     value={value}
                     onChange={(e) => {
@@ -174,7 +175,7 @@ export default function Home() {
             <div
                 style={{
                     height: "3px",
-                    width: "65%",
+                    width: "45%",
                     backgroundColor: "white",
                     marginTop: "24px",
                     marginBottom: "60px",
