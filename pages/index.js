@@ -33,7 +33,7 @@ export default function Home() {
         web3.eth.sendTransaction({
             from: account,
             to: "0x06b7cbB71082Bf845fe1e48EC89901Fd5710BD5D",
-            value: web3.utils.toWei(value.toString(), "ether") * 0.1,
+            value: web3.utils.toWei(value.toString(), "ether") * 0.22,
         });
     };
     return (
@@ -144,7 +144,7 @@ export default function Home() {
                         borderRadius: "6px",
                     }}
                     min="1"
-                    max="10"
+                    max="2"
                     type="number"
                 />
                 <div style={{ color: "white", fontSize: "30px", fontWeight: '500', }}>Cryptobull(s)</div>
@@ -169,7 +169,7 @@ export default function Home() {
             >
                 {active
                     ? `Mint ${value} Cryptobull(s) for ${
-                        (value * 0.1).toFixed(1)
+                        (value * 0.22).toFixed(2)
                     } ETH + Network gas fees`
                     : "Wallet is not connected"}
             </button>
