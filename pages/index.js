@@ -80,7 +80,7 @@ export default function Home() {
                         letterSpacing: "6px",
                     }}
                 >
-                       Whitelist Raffle #1842
+                       Whitelist #1842
                 </div>
             </div>
             <div
@@ -144,7 +144,7 @@ export default function Home() {
                         borderRadius: "6px",
                     }}
                     min="1"
-                    max="5"
+                    max="10"
                     type="number"
                 />
                 <div style={{ color: "white", fontSize: "30px", fontWeight: '500', }}>Cryptobull(s)</div>
